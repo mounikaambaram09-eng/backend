@@ -4,7 +4,7 @@ const path = require("path");
 require("dotenv").config();
 
 const connectDB = require("./config/db");
-const userRoutes = require("./routes/userroute");
+const userRoutes = require("./routes/userRoute");
 const productRoutes = require("./routes/productRoutes"); 
 const categoryRoutes = require("./routes/categoryRoutes");
 const cartRoutes = require("./routes/cartRoutes"); 
